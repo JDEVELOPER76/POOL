@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//archivo no funcional , usa pool.c como main 
 
 void crear_file(char *file) {
     FILE *abrir = fopen(file, "w");
