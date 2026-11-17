@@ -1,0 +1,2 @@
+gcc -Wall -Wextra -std=c11 -Icore pool.c core/pool_core.c -o pool //compilacion de pool
+gcc -S -O0 -Icore pool.c //generador de asm
